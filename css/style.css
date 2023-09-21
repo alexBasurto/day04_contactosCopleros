@@ -1,0 +1,62 @@
+body{
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div#tarjeta_blanca {
+    background-color: white;
+    margin-top: 30px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    column-rule: solid 60px #000;
+    
+}
+
+div.coplero {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+div.coplero_234 {
+    border-top: 1px solid gray;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+span {
+    display: block;
+    margin-left: 25px;
+}
+
+span.coplero_name {
+    font-weight: bold;
+    color: #555;
+}
+
+span.coplero_address {
+    color: #999;
+}
+
+div.coplero > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+div#coplero1 {
+    margin-top: 10px;
+}
+
+div#coplero4 {
+    margin-bottom: 10px;
+}
