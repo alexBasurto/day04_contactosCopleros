@@ -8,7 +8,7 @@ main {
     justify-content: center;
 }
 
-div#tarjeta_blanca {
+article#tarjeta_blanca {
     background-color: white;
     margin-top: 30px;
     width: 380px;
