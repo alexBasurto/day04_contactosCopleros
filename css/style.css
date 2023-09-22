@@ -14,18 +14,16 @@ article#tarjeta_blanca {
     width: 380px;
     display: flex;
     flex-direction: column;
-    column-rule: solid 60px #000;
-    
 }
 
-div.coplero {
+section.coplero {
     display: flex;
     flex-direction: row;
     padding: 10px;
     margin: 0px 10px;
 }
 
-div.coplero_234 {
+section.coplero_234 {
     border-top: 1px solid gray;
 }
 
@@ -47,16 +45,16 @@ span.coplero_address {
     color: #999;
 }
 
-div.coplero > img {
+section.coplero > img {
     height: 80px;
     width: 80px;
     border-radius: 100px;
 }
 
-div#coplero1 {
+section#coplero1 {
     margin-top: 10px;
 }
 
-div#coplero4 {
+section#coplero4 {
     margin-bottom: 10px;
 }
