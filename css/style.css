@@ -8,7 +8,7 @@ main {
     justify-content: center;
 }
 
-article#tarjeta_blanca {
+section#tarjeta_blanca {
     background-color: white;
     margin-top: 30px;
     width: 380px;
@@ -16,14 +16,14 @@ article#tarjeta_blanca {
     flex-direction: column;
 }
 
-section.coplero {
+article.coplero {
     display: flex;
     flex-direction: row;
     padding: 10px;
     margin: 0px 10px;
 }
 
-section.coplero_234 {
+article.coplero_234 {
     border-top: 1px solid gray;
 }
 
@@ -45,16 +45,16 @@ span.coplero_address {
     color: #999;
 }
 
-section.coplero > img {
+article.coplero > img {
     height: 80px;
     width: 80px;
     border-radius: 100px;
 }
 
-section#coplero1 {
+article#coplero1 {
     margin-top: 10px;
 }
 
-section#coplero4 {
+article#coplero4 {
     margin-bottom: 10px;
 }
